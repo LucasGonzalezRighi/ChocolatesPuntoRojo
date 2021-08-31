@@ -298,6 +298,12 @@ main .carousel-inner {
   margin: 0px;
   position: absolute;
   margin-top: 3%;
+  transition: all 2s;
+  transition-property: all;
+  transition-duration: 2s;
+}
+.seccion-1-bombones .fondo-imagen-bombones .imagen-2-bombones:hover {
+  transform: rotate(360deg) scale(2);
 }
 
 .main-sin-tacc {
