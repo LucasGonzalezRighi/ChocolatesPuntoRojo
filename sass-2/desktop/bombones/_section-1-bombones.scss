@@ -4,11 +4,10 @@
     flex-wrap: wrap;
 
     .fondo-imagen-bombones {
-        margin-top: 10%;
         display: flex;
         justify-content: center;
-        width: 31%;
-        height: 450px
+        width: 30%;
+        height: 300px;
 
         .imagen-2-bombones {
             border-radius: 30px;
@@ -23,7 +22,7 @@
 
         }
         .imagen-2-bombones:hover{
-            transform: rotate(360deg) scale(2);
+            transform: rotate(360) scale(2);
         }
     }
 }
