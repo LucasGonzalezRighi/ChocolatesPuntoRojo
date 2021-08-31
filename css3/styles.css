@@ -288,8 +288,9 @@ main .carousel-inner {
 .seccion-1-bombones .fondo-imagen-bombones {
   display: flex;
   justify-content: center;
-  width: 30%;
-  height: 300px;
+  width: 31%;
+  height: 450px;
+  margin-top: 10%;
 }
 .seccion-1-bombones .fondo-imagen-bombones .imagen-2-bombones {
   border-radius: 30px;

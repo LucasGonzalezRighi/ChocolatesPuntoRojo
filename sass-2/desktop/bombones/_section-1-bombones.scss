@@ -6,8 +6,9 @@
     .fondo-imagen-bombones {
         display: flex;
         justify-content: center;
-        width: 30%;
-        height: 300px;
+        width: 31%;
+        height: 450px;
+        margin-top: 10%;
 
         .imagen-2-bombones {
             border-radius: 30px;
@@ -21,8 +22,9 @@
             transition-duration: 2s;
 
         }
-        .imagen-2-bombones:hover{
+
+        .imagen-2-bombones:hover {
             transform: rotate(360deg) scale(2);
         }
-    }  
+    }
 }
