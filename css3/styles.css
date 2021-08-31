@@ -303,7 +303,7 @@ main .carousel-inner {
   transition-duration: 2s;
 }
 .seccion-1-bombones .fondo-imagen-bombones .imagen-2-bombones:hover {
-  transform: rotate(360) scale(2);
+  transform: rotate(360deg) scale(2);
 }
 
 .main-sin-tacc {
