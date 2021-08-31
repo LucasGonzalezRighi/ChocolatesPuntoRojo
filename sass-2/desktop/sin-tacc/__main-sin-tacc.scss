@@ -1,0 +1,9 @@
+.main-sin-tacc {
+    background-image: url(https://images.clarin.com/2016/02/10/mamuschka-hace-chocolates-sin-tacc___Hkbfo5FEx_720x0.jpg);
+    background-position-y: 18%;
+    @extend %estilos-general-main;
+
+    .h1-sin-tacc {
+        @extend %estilos-h1-main;
+    }
+}

@@ -1,0 +1,16 @@
+@media only screen and (max-width: 480px) {
+    .main-chocolates-semiamargo {
+        background-image: url(../recursos/imagenes/chocolatessemiamargo/principal.jpg);
+        background-color: chocolate;
+        padding: 16% 0% 16% 0%;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .h1-chocolates-semiamargo {
+            font-family: 'Gentium Book Basic', serif;
+            font-size: 160%;
+            color: whitesmoke;
+            padding-left: 1%;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+.main-chocolates-semiamargo {
+    background-image: url(../recursos/imagenes/chocolatessemiamargo/principal.jpg);
+    @extend %estilos-general-main;
+
+    .h1-chocolates-semiamargo {
+        @extend %estilos-h1-main;
+    }
+}

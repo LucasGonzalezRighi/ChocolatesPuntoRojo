@@ -1,0 +1,8 @@
+.main-chocolates-blancos {
+    background-image: url(https://www.vegrecetas.com/wp-content/uploads/chocolate-blanco-vegan.jpg);
+    @extend %estilos-general-main;
+
+    .h1-chocolates-blancos {
+        @extend %estilos-h1-main;
+    }
+}

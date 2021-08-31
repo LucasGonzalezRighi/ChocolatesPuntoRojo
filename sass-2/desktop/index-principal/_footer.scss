@@ -1,0 +1,83 @@
+//Inicio de footer 
+.grid-container {
+    display: grid;
+    grid-template-columns: 0% 21% 34% 25% 15%;
+    grid-auto-rows: 190px;
+    grid-gap: 10px;
+    @include condicion(#5E2903);
+
+
+    .lcdth {
+        display: block;
+        justify-content: center;
+        flex-wrap: revert;
+        @include textos(transparent, 100%, ('Castoro', serif), uppercase, 1px, #000000);
+    }
+
+    .lcdtt {
+        padding-left: 12%;
+    }
+
+    .lista {
+        list-style: none;
+
+
+        .sublista {
+            display: inherit;
+
+
+            .menu2 {
+                color: white;
+                font-size: 11px;
+                font-family: 'Castoro', serif;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                text-decoration: none;
+            }
+
+            .menu2:hover {
+                text-decoration: underline;
+                color: white;
+            }
+        }
+    }
+
+    .lista-2 {
+        list-style: none;
+
+
+        .sublista-2 {
+            @include textos(transparent, 11px, ('Castoro', serif), uppercase, 1px, #FFFFFF);
+            text-decoration: none;
+        }
+    }
+
+
+    .mediosdepago-1 {
+        display: block;
+
+
+        .mediosdepago-2 {
+            width: 15%;
+        }
+    }
+
+
+
+    .lista-3 {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        width: 30%;
+        padding-left: 4%;
+
+
+        .sublista-3 {
+            font-size: 250%;
+            color: black;
+            letter-spacing: 16px;
+            text-decoration: none;
+        }
+    }
+}
+//Fin de footer

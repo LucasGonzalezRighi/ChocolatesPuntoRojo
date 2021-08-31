@@ -1,0 +1,8 @@
+.main-chocolates-con-leche {
+    background-image: url(https://www.lagacetadesalamanca.es/binrepository/1200x676/0c39/1200d597/none/25207907/FPVF/chocolate_1-2815694_20210706085334.jpg);
+    @extend %estilos-general-main;
+
+    .h1-chocolates-con-leche {
+        @extend %estilos-h1-main;
+    }
+}

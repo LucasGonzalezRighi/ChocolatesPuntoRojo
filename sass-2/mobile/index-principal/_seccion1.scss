@@ -1,0 +1,42 @@
+@media only screen and (max-width: 480px) {
+
+    .seccion1 {
+        display: flex;
+        justify-content: center;
+
+        .fondo-imagen {
+            display: flex;
+            justify-content: space-evenly;
+            width: 25%;
+            height: 90px;
+
+            .imagen1 {
+                border-radius: 0%;
+                width: 20%;
+                height: 75px;
+                margin: 0px;
+                position: absolute;
+            }
+
+            .imagen2 {
+                border-radius: 0%;
+                width: 20%;
+                height: 75px;
+                margin: 0px;
+                position: absolute;
+            }
+        }
+    }
+
+    .imagen1 {
+        background-color: darkred;
+    }
+
+    .imagen2 {
+        transition: all 1s;
+    }
+
+    .imagen2:hover {
+        transform: translate(25px, 25px);
+    }
+}

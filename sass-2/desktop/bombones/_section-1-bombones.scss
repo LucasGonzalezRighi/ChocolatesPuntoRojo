@@ -1,0 +1,21 @@
+.seccion-1-bombones {
+    background-color: #B94E02;
+    @extend %flexbox;
+    flex-wrap: wrap;
+
+    .fondo-imagen-bombones {
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        height: 300px;
+
+        .imagen-2-bombones {
+            border-radius: 30px;
+            width: 18%;
+            height: 240px;
+            margin: 0px;
+            position: absolute;
+            margin-top: 3%;
+        }
+    }
+}

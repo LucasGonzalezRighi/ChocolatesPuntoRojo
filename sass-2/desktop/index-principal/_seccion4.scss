@@ -1,0 +1,14 @@
+.seccion4 {
+    @include textos(#D2691E, 20px, ('Castoro', serif), uppercase, 1px, #000000);
+    padding: 0% 0% 3% 0%;
+    display: flex;
+    justify-content: space-around;
+
+    .icono {
+        font-size: 224%;
+
+    }
+    .garantias{
+        font-size: 120%;
+    }
+}

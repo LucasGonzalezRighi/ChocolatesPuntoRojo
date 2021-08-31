@@ -1,0 +1,33 @@
+.seccion1 {
+    background-color: chocolate;
+    @extend %flexbox;
+    padding: 8% 0% 3% 0%;
+
+    .fondo-imagen {
+        display: flex;
+        justify-content: space-evenly;
+        width: 25%;
+        height: 340px;
+
+        .imagen1,
+        .imagen2 {
+            border-radius: 10%;
+            width: 21%;
+            height: 40%;
+            margin: 0px;
+            position: absolute;
+        }
+    }
+}
+
+.imagen1 {
+    background-color: darkred;
+}
+
+.imagen2 {
+    transition: all 1s;
+}
+
+.imagen2:hover {
+    transform: translate(45px, 45px);
+}

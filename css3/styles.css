@@ -1,0 +1,655 @@
+.seccion-1-bombones, .seccion1, header .titulo-audio-buscador {
+  display: flex;
+  justify-content: center;
+}
+
+.main-sin-tacc, .main-bombones, .main-chocolates-blancos, .main-chocolates-con-leche, .main-chocolates-semiamargo {
+  background-color: chocolate;
+  padding: 16% 0% 16% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-sin-tacc .h1-sin-tacc, .main-bombones .h1-bombones, .main-chocolates-blancos .h1-chocolates-blancos, .main-chocolates-con-leche .h1-chocolates-con-leche, .main-chocolates-semiamargo .h1-chocolates-semiamargo {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 300%;
+  color: whitesmoke;
+  padding-left: 5%;
+}
+
+/*mixin*/
+/*Inicio de header*/
+header {
+  background-color: #5e2903;
+  padding-top: 1%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-bottom: -2%;
+}
+header .titulo-audio-buscador .titulo-audio-buscador-2 {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  width: 89%;
+}
+header .titulo-audio-buscador .titulo-audio-buscador-2 .buscador {
+  width: 20%;
+  background-color: #5e2903;
+  padding-top: 1%;
+}
+header .titulo-audio-buscador .titulo-audio-buscador-2 .buscador .color-boton {
+  color: red;
+  border-color: red;
+}
+header .titulo-audio-buscador .titulo-audio-buscador-2 .buscador .color-boton:hover {
+  background-color: chocolate;
+  color: red;
+  border-color: red;
+}
+header .titulo-audio-buscador .titulo-audio-buscador-2 .titulo-principal {
+  width: 110%;
+  height: 60px;
+  margin-left: -22%;
+}
+header .titulo-audio-buscador .titulo-audio-buscador-2 .carrito-audio {
+  color: white;
+  font-size: 125%;
+  display: flex;
+  justify-content: space-between;
+  width: 11%;
+}
+header .titulo-audio-buscador .titulo-audio-buscador-2 .carrito-audio audio {
+  width: 77%;
+  padding-top: 10%;
+  height: 30%;
+}
+header .menu-general {
+  padding-top: 0%;
+}
+header .menu-general .lucas {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+header .menu-general .lucas .menu-general-2 {
+  width: 21%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+header .menu-general .lucas .menu {
+  background-color: transparent;
+  font-size: 95%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  display: inline-block;
+  text-decoration: none;
+  padding-bottom: 2%;
+}
+header .menu-general .lucas .menu:hover {
+  transform: scale(1.2);
+  background-color: darkred;
+  color: chocolate;
+  border-radius: 0.5rem;
+}
+
+/*Fin de Header*/
+main {
+  margin-top: -6%;
+}
+main .carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 710px;
+}
+
+.seccion1 {
+  background-color: chocolate;
+  padding: 8% 0% 3% 0%;
+}
+.seccion1 .fondo-imagen {
+  display: flex;
+  justify-content: space-evenly;
+  width: 25%;
+  height: 340px;
+}
+.seccion1 .fondo-imagen .imagen1,
+.seccion1 .fondo-imagen .imagen2 {
+  border-radius: 10%;
+  width: 21%;
+  height: 40%;
+  margin: 0px;
+  position: absolute;
+}
+
+.imagen1 {
+  background-color: darkred;
+}
+
+.imagen2 {
+  transition: all 1s;
+}
+
+.imagen2:hover {
+  transform: translate(45px, 45px);
+}
+
+.seccion2 {
+  background-color: chocolate;
+  padding-bottom: 1%;
+}
+.seccion2 .frace {
+  font-family: "Gentium Book Basic", serif;
+  text-align: center;
+  font-size: 260%;
+  padding: 0% 0% 4% 0%;
+}
+
+.seccion3 {
+  text-align: center;
+  background-color: chocolate;
+}
+.seccion3 .video-index {
+  width: 40%;
+  padding-bottom: 5%;
+}
+
+.seccion4 {
+  background-color: #D2691E;
+  font-size: 20px;
+  font-family: "Castoro", serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000000;
+  padding: 0% 0% 3% 0%;
+  display: flex;
+  justify-content: space-around;
+}
+.seccion4 .icono {
+  font-size: 224%;
+}
+.seccion4 .garantias {
+  font-size: 120%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0% 21% 34% 25% 15%;
+  grid-auto-rows: 190px;
+  grid-gap: 10px;
+  background-color: #5E2903;
+  padding-top: 1px;
+}
+.grid-container .lcdth {
+  display: block;
+  justify-content: center;
+  flex-wrap: revert;
+  background-color: transparent;
+  font-size: 100%;
+  font-family: "Castoro", serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.grid-container .lcdtt {
+  padding-left: 12%;
+}
+.grid-container .lista {
+  list-style: none;
+}
+.grid-container .lista .sublista {
+  display: inherit;
+}
+.grid-container .lista .sublista .menu2 {
+  color: white;
+  font-size: 11px;
+  font-family: "Castoro", serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.grid-container .lista .sublista .menu2:hover {
+  text-decoration: underline;
+  color: white;
+}
+.grid-container .lista-2 {
+  list-style: none;
+}
+.grid-container .lista-2 .sublista-2 {
+  background-color: transparent;
+  font-size: 11px;
+  font-family: "Castoro", serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.grid-container .mediosdepago-1 {
+  display: block;
+}
+.grid-container .mediosdepago-1 .mediosdepago-2 {
+  width: 15%;
+}
+.grid-container .lista-3 {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 30%;
+  padding-left: 4%;
+}
+.grid-container .lista-3 .sublista-3 {
+  font-size: 250%;
+  color: black;
+  letter-spacing: 16px;
+  text-decoration: none;
+}
+
+.main-chocolates-semiamargo {
+  background-image: url(../recursos/imagenes/chocolatessemiamargo/principal.jpg);
+}
+.main-chocolates-con-leche {
+  background-image: url(https://www.lagacetadesalamanca.es/binrepository/1200x676/0c39/1200d597/none/25207907/FPVF/chocolate_1-2815694_20210706085334.jpg);
+}
+.main-chocolates-blancos {
+  background-image: url(https://www.vegrecetas.com/wp-content/uploads/chocolate-blanco-vegan.jpg);
+}
+.main-bombones {
+  background-image: url(../recursos/imagenes/bombones/principal2.jpeg);
+}
+.seccion-1-bombones {
+  background-color: #B94E02;
+  flex-wrap: wrap;
+}
+.seccion-1-bombones .fondo-imagen-bombones {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  height: 300px;
+}
+.seccion-1-bombones .fondo-imagen-bombones .imagen-2-bombones {
+  border-radius: 30px;
+  width: 18%;
+  height: 240px;
+  margin: 0px;
+  position: absolute;
+  margin-top: 3%;
+}
+
+.main-sin-tacc {
+  background-image: url(https://images.clarin.com/2016/02/10/mamuschka-hace-chocolates-sin-tacc___Hkbfo5FEx_720x0.jpg);
+  background-position-y: 18%;
+}
+@media only screen and (max-width: 480px) {
+  header {
+    background-color: #5e2903;
+    padding-top: 1%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin-bottom: -5%;
+  }
+  header .titulo-audio-buscador {
+    display: flex;
+    justify-content: center;
+  }
+  header .titulo-audio-buscador .titulo-audio-buscador-2 {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  header .titulo-audio-buscador .titulo-audio-buscador-2 .buscador {
+    width: 50%;
+    background-color: #5e2903;
+    padding-top: 1%;
+  }
+  header .titulo-audio-buscador .titulo-audio-buscador-2 .buscador .color-boton {
+    color: red;
+    border-color: red;
+  }
+  header .titulo-audio-buscador .titulo-audio-buscador-2 .buscador .color-boton:hover {
+    background-color: chocolate;
+    color: red;
+    border-color: red;
+  }
+  header .titulo-audio-buscador .titulo-audio-buscador-2 .titulo-principal {
+    width: 100%;
+    height: 30px;
+    margin-left: -13%;
+  }
+  header .titulo-audio-buscador .titulo-audio-buscador-2 .carrito-audio {
+    color: white;
+    font-size: 60%;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+  }
+  header .titulo-audio-buscador .titulo-audio-buscador-2 .carrito-audio audio {
+    width: 73%;
+    padding-top: 20%;
+    height: 34%;
+  }
+  header .menu-general {
+    padding-top: 0%;
+  }
+  header .menu-general .lucas {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 0%;
+  }
+  header .menu-general .lucas .menu-general-2 {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  header .menu-general .lucas .menu {
+    background-color: transparent;
+    font-size: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    display: inline-block;
+    text-decoration: none;
+  }
+  header .menu-general .lucas .menu:hover {
+    transform: scale(1.2);
+    background-color: darkred;
+    color: chocolate;
+    border-radius: 0.5rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  main {
+    margin-top: -4%;
+  }
+  main .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 181px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .seccion1 {
+    display: flex;
+    justify-content: center;
+  }
+  .seccion1 .fondo-imagen {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+    height: 90px;
+  }
+  .seccion1 .fondo-imagen .imagen1 {
+    border-radius: 0%;
+    width: 20%;
+    height: 75px;
+    margin: 0px;
+    position: absolute;
+  }
+  .seccion1 .fondo-imagen .imagen2 {
+    border-radius: 0%;
+    width: 20%;
+    height: 75px;
+    margin: 0px;
+    position: absolute;
+  }
+
+  .imagen1 {
+    background-color: darkred;
+  }
+
+  .imagen2 {
+    transition: all 1s;
+  }
+
+  .imagen2:hover {
+    transform: translate(25px, 25px);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .seccion2 {
+    background-color: chocolate;
+    padding-bottom: 1%;
+  }
+  .seccion2 .frace {
+    font-family: "Gentium Book Basic", serif;
+    text-align: center;
+    font-size: 160%;
+    padding: 0% 0% 4% 0%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .seccion3 {
+    text-align: center;
+    background-color: chocolate;
+  }
+  .seccion3 .video-index {
+    width: 75%;
+    padding-bottom: 5%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .seccion4 {
+    background-color: #D2691E;
+    font-size: 60%;
+    font-family: "Castoro", serif;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #000000;
+    padding: 1% 0% 0% 0%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .seccion4 h3 {
+    font-size: 120%;
+  }
+  .seccion4 .icono {
+    font-size: 230%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 0% 20% 34% 26% 14%;
+    grid-auto-rows: 90px;
+    grid-gap: 4px;
+    background-color: #5E2903;
+    padding-top: 1%;
+  }
+  .grid-container .lcdth {
+    display: block;
+    justify-content: center;
+    flex-wrap: revert;
+    background-color: transparent;
+    font-size: 50%;
+    font-family: "Castoro", serif;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .grid-container .lcdtt {
+    padding-left: 0%;
+  }
+  .grid-container .lista {
+    list-style: none;
+    padding-left: 0%;
+  }
+  .grid-container .lista .sublista {
+    display: inherit;
+  }
+  .grid-container .lista .sublista .menu2 {
+    color: white;
+    font-size: 4px;
+    font-family: "Castoro", serif;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    text-decoration: none;
+  }
+  .grid-container .lista .sublista .menu2:hover {
+    text-decoration: underline;
+    color: white;
+  }
+  .grid-container .lista-2 {
+    padding-left: 1%;
+    list-style: none;
+  }
+  .grid-container .lista-2 .sublista-2 {
+    background-color: transparent;
+    font-size: 4px;
+    font-family: "Castoro", serif;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .grid-container .mediosdepago-1 {
+    display: block;
+  }
+  .grid-container .mediosdepago-1 .mediosdepago-2 {
+    width: 15%;
+  }
+  .grid-container .lista-3 {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 30%;
+    padding-left: 0%;
+  }
+  .grid-container .lista-3 .sublista-3 {
+    font-size: 200%;
+    color: black;
+    letter-spacing: 4px;
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .main-chocolates-semiamargo {
+    background-image: url(../recursos/imagenes/chocolatessemiamargo/principal.jpg);
+    background-color: chocolate;
+    padding: 16% 0% 16% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-chocolates-semiamargo .h1-chocolates-semiamargo {
+    font-family: "Gentium Book Basic", serif;
+    font-size: 160%;
+    color: whitesmoke;
+    padding-left: 1%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .main-chocolates-con-leche {
+    background-image: url(https://www.lagacetadesalamanca.es/binrepository/1200x676/0c39/1200d597/none/25207907/FPVF/chocolate_1-2815694_20210706085334.jpg);
+    background-color: chocolate;
+    padding: 16% 0% 16% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-chocolates-con-leche .h1-chocolates-con-leche {
+    font-family: "Gentium Book Basic", serif;
+    font-size: 160%;
+    color: whitesmoke;
+    padding-left: 1%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .main-chocolates-blancos {
+    background-image: url(https://www.vegrecetas.com/wp-content/uploads/chocolate-blanco-vegan.jpg);
+    background-color: chocolate;
+    padding: 16% 0% 16% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-chocolates-blancos .h1-chocolates-blancos {
+    font-family: "Gentium Book Basic", serif;
+    font-size: 160%;
+    color: whitesmoke;
+    padding-left: 1%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .main-bombones {
+    background-image: url(../recursos/imagenes/bombones/principal2.jpeg);
+    background-color: chocolate;
+    padding: 16% 0% 16% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-bombones .h1-bombones {
+    font-family: "Gentium Book Basic", serif;
+    font-size: 160%;
+    color: whitesmoke;
+    padding-left: 1%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .seccion-1-bombones {
+    background-color: #B94E02;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .seccion-1-bombones .fondo-imagen-bombones {
+    display: flex;
+    justify-content: center;
+    width: 31%;
+    height: 190px;
+  }
+  .seccion-1-bombones .fondo-imagen-bombones .imagen-2-bombones {
+    border-radius: 10px;
+    width: 20%;
+    height: 110px;
+    margin: 0px;
+    position: absolute;
+    margin-top: 6%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .main-sin-tacc {
+    background-image: url(https://images.clarin.com/2016/02/10/mamuschka-hace-chocolates-sin-tacc___Hkbfo5FEx_720x0.jpg);
+    background-position-y: 18%;
+    background-color: chocolate;
+    padding: 16% 0% 16% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-sin-tacc .h1-sin-tacc {
+    font-family: "Gentium Book Basic", serif;
+    font-size: 160%;
+    color: whitesmoke;
+    padding-left: 1%;
+  }
+}
+header .titulo-audio-buscador, .seccion1, .seccion-1-bombones {
+  display: flex;
+  justify-content: center;
+}
+
+.main-chocolates-semiamargo, .main-chocolates-con-leche, .main-chocolates-blancos, .main-bombones, .main-sin-tacc {
+  background-color: chocolate;
+  padding: 16% 0% 16% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-chocolates-semiamargo .h1-chocolates-semiamargo, .main-chocolates-con-leche .h1-chocolates-con-leche, .main-chocolates-blancos .h1-chocolates-blancos, .main-bombones .h1-bombones, .main-sin-tacc .h1-sin-tacc {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 300%;
+  color: whitesmoke;
+  padding-left: 5%;
+}
+
+/*mixin*/
+
+/*# sourceMappingURL=styles.css.map */

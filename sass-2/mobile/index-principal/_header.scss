@@ -1,0 +1,104 @@
+@media only screen and (max-width: 480px) {
+
+    header {
+        background-color: #5e2903;
+        padding-top: 1%;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        margin-bottom: -5%;
+
+        .titulo-audio-buscador {
+            display: flex;
+            justify-content: center;
+
+
+            .titulo-audio-buscador-2 {
+                display: flex;
+                justify-content: space-between;
+                position: sticky;
+                top: 0;
+                width: 100%;
+
+
+                .buscador {
+                    width: 50%;
+                    background-color: #5e2903;
+                    padding-top: 1%;
+
+                    .color-boton {
+                        color: red;
+                        border-color: red;
+                    }
+                    
+                    .color-boton:hover {
+                        background-color: chocolate;
+                        color: red;
+                        border-color: red;
+                    }
+                }
+
+                .titulo-principal {
+                    width: 100%;
+                    height: 30px;
+                    margin-left: -13%;
+                }
+
+                .carrito-audio {
+                    color: white;
+                    font-size: 60%;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 10%;
+
+
+                    audio {
+                        width: 73%;
+                        padding-top: 20%;
+                        height: 34%;
+                    }
+                }
+            }
+        }
+
+        .menu-general {
+            padding-top: 0%;
+
+
+            .lucas {
+                display: flex;
+                justify-content: flex-start;
+                width: 100%;
+                padding-left: 2%;
+                padding-right: 0%;
+
+
+                .menu-general-2 {
+                    width: 20%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+                }
+
+                .menu {
+                    background-color: transparent;
+                    font-size: 40%;
+                    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+                    text-transform: uppercase;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    display: inline-block;
+                    text-decoration: none;
+                }
+
+                .menu:hover {
+                    transform: scale(1.2);
+                    background-color: darkred;
+                    color: chocolate;
+                    border-radius: .50rem;
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+@import "../../variables-mixin";
+
+/*Inicio de header*/
+header {
+    background-color: rgb(94, 41, 3);
+    padding-top: 1%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin-bottom: -2%;
+
+    .titulo-audio-buscador {
+        @extend %flexbox;
+
+
+        .titulo-audio-buscador-2 {
+            display: flex;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            width: 89%;
+
+
+            .buscador {
+                width: 20%;
+                background-color: rgb(94, 41, 3);
+                padding-top: 1%;
+
+                .color-boton {
+                    color: red;
+                    border-color: red;
+                }
+                
+                .color-boton:hover {
+                    background-color: chocolate;
+                    color: red;
+                    border-color: red;
+                }
+            }
+
+            .titulo-principal {
+                width: 110%;
+                height: 60px;
+                margin-left: -22%;
+            }
+
+            .carrito-audio {
+                color: white;
+                font-size: 125%;
+                display: flex;
+                justify-content: space-between;
+                width: 11%;
+
+
+                audio {
+                    width: 77%;
+                    padding-top: 10%;
+                    height: 30%;
+                }
+            }
+        }
+    }
+
+    .menu-general {
+        padding-top: 0%;
+        
+
+
+        .lucas {
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+
+
+            .menu-general-2 {
+                width: 21%;
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+            }
+
+            .menu {
+                @include textos(transparent, 95%, (Cambria, Cochin, Georgia, Times, 'Times New Roman', serif), uppercase, 0px, #FFFFFF);
+                display: inline-block;
+                text-decoration: none;
+                padding-bottom: 2%;
+            }
+
+            .menu:hover {
+                transform: scale(1.2);
+                background-color: darkred;
+                color: chocolate;
+                border-radius: .50rem;
+            }
+
+        }
+    }
+}
+
+/*Fin de Header*/
