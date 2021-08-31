@@ -18,6 +18,26 @@
 }
 
 /*mixin*/
+.seccion-1-bombones, .seccion1, header .titulo-audio-buscador {
+  display: flex;
+  justify-content: center;
+}
+
+.main-sin-tacc, .main-bombones, .main-chocolates-blancos, .main-chocolates-con-leche, .main-chocolates-semiamargo {
+  background-color: chocolate;
+  padding: 16% 0% 16% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-sin-tacc .h1-sin-tacc, .main-bombones .h1-bombones, .main-chocolates-blancos .h1-chocolates-blancos, .main-chocolates-con-leche .h1-chocolates-con-leche, .main-chocolates-semiamargo .h1-chocolates-semiamargo {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 300%;
+  color: whitesmoke;
+  padding-left: 5%;
+}
+
+/*mixin*/
 /*Inicio de header*/
 header {
   background-color: #5e2903;
@@ -631,25 +651,5 @@ main .carousel-inner {
     padding-left: 1%;
   }
 }
-header .titulo-audio-buscador, .seccion1, .seccion-1-bombones {
-  display: flex;
-  justify-content: center;
-}
-
-.main-chocolates-semiamargo, .main-chocolates-con-leche, .main-chocolates-blancos, .main-bombones, .main-sin-tacc {
-  background-color: chocolate;
-  padding: 16% 0% 16% 0%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.main-chocolates-semiamargo .h1-chocolates-semiamargo, .main-chocolates-con-leche .h1-chocolates-con-leche, .main-chocolates-blancos .h1-chocolates-blancos, .main-bombones .h1-bombones, .main-sin-tacc .h1-sin-tacc {
-  font-family: "Gentium Book Basic", serif;
-  font-size: 300%;
-  color: whitesmoke;
-  padding-left: 5%;
-}
-
-/*mixin*/
 
 /*# sourceMappingURL=styles.css.map */

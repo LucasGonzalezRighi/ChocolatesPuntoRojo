@@ -1,3 +1,4 @@
+@import"variables-mixin";
 //Desktop
 @import"desktop/index-principal/header";
 @import"desktop/index-principal/main";
@@ -26,5 +27,4 @@
 @import"mobile/bombones/main-bombones";
 @import"mobile/bombones/seccion-1-bombones";
 @import"mobile/sin-tacc/_main-sin-tacc";
-@import"variables-mixin";
 @import"medias-queris-tablets";
