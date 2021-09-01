@@ -1,4 +1,4 @@
-.seccion-1-bombones, .seccion-1-blanco, .seccion1, header .titulo-audio-buscador {
+.seccion-1-sintaac, .seccion-1-bombones, .seccion-1-blanco, .seccion-1-con-leche, .seccion-1-semiamargo, .seccion1, header .titulo-audio-buscador {
   display: flex;
   justify-content: center;
 }
@@ -18,7 +18,7 @@
 }
 
 /*mixin*/
-.seccion-1-bombones, .seccion-1-blanco, .seccion1, header .titulo-audio-buscador {
+.seccion-1-sintaac, .seccion-1-bombones, .seccion-1-blanco, .seccion-1-con-leche, .seccion-1-semiamargo, .seccion1, header .titulo-audio-buscador {
   display: flex;
   justify-content: center;
 }
@@ -272,9 +272,61 @@ main .carousel-inner {
 .main-chocolates-semiamargo {
   background-image: url(../recursos/imagenes/chocolatessemiamargo/principal.jpg);
 }
+.seccion-1-semiamargo {
+  background-color: #B94E02;
+  flex-wrap: wrap;
+}
+.seccion-1-semiamargo .fondo-imagen-semiamargo {
+  display: flex;
+  justify-content: center;
+  width: 31%;
+  height: 450px;
+  margin-top: 10%;
+}
+.seccion-1-semiamargo .fondo-imagen-semiamargo .imagen-2-semiamargo {
+  border-radius: 30px;
+  width: 18%;
+  height: 240px;
+  margin: 0px;
+  position: absolute;
+  margin-top: 3%;
+  transition: all 2s;
+  transition-property: all;
+  transition-duration: 2s;
+}
+.seccion-1-semiamargo .fondo-imagen-semiamargo .imagen-2-semiamargo:hover {
+  transform: rotate(360deg) scale(2);
+}
+
 .main-chocolates-con-leche {
   background-image: url(https://www.lagacetadesalamanca.es/binrepository/1200x676/0c39/1200d597/none/25207907/FPVF/chocolate_1-2815694_20210706085334.jpg);
 }
+.seccion-1-con-leche {
+  background-color: #B94E02;
+  flex-wrap: wrap;
+}
+.seccion-1-con-leche .fondo-imagen-con-leche {
+  display: flex;
+  justify-content: center;
+  width: 31%;
+  height: 450px;
+  margin-top: 10%;
+}
+.seccion-1-con-leche .fondo-imagen-con-leche .imagen-2-con-leche {
+  border-radius: 30px;
+  width: 18%;
+  height: 240px;
+  margin: 0px;
+  position: absolute;
+  margin-top: 3%;
+  transition: all 2s;
+  transition-property: all;
+  transition-duration: 2s;
+}
+.seccion-1-con-leche .fondo-imagen-con-leche .imagen-2-con-leche:hover {
+  transform: rotate(360deg) scale(2);
+}
+
 .main-chocolates-blancos {
   background-image: url(https://www.vegrecetas.com/wp-content/uploads/chocolate-blanco-vegan.jpg);
 }
@@ -337,6 +389,32 @@ main .carousel-inner {
   background-image: url(https://images.clarin.com/2016/02/10/mamuschka-hace-chocolates-sin-tacc___Hkbfo5FEx_720x0.jpg);
   background-position-y: 18%;
 }
+.seccion-1-sintaac {
+  background-color: #B94E02;
+  flex-wrap: wrap;
+}
+.seccion-1-sintaac .fondo-imagen-sintaac {
+  display: flex;
+  justify-content: center;
+  width: 31%;
+  height: 450px;
+  margin-top: 10%;
+}
+.seccion-1-sintaac .fondo-imagen-sintaac .imagen-2-sintaac {
+  border-radius: 30px;
+  width: 18%;
+  height: 240px;
+  margin: 0px;
+  position: absolute;
+  margin-top: 3%;
+  transition: all 2s;
+  transition-property: all;
+  transition-duration: 2s;
+}
+.seccion-1-sintaac .fondo-imagen-sintaac .imagen-2-sintaac:hover {
+  transform: rotate(360deg) scale(2);
+}
+
 @media only screen and (max-width: 480px) {
   header {
     background-color: #5e2903;

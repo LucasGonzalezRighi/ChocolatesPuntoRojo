@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasGonzalezRighi/ChocolatesPuntoRojo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LucasGonzalezRighi/ChocolatesPuntoRojo/issues"
+  },
+  "homepage": "https://github.com/LucasGonzalezRighi/ChocolatesPuntoRojo#readme",
   "description": ""
 }
