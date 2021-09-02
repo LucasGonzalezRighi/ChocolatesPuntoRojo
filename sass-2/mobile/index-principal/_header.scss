@@ -22,15 +22,27 @@
 
 
                 .buscador {
-                    width: 20%;
-                    background-color: rgb(94, 41, 3);
-                    padding-top: 1%;
-    
+                    width: 17%;
+                    background-color: #5e2903;
+                    padding-top: 2%;
+
+                    .buscador-2 {
+                        width: 30px;
+                        padding: 0px 0px;
+                        font-size: 40%;
+                        line-height: 0%;
+                        height: 10px;
+                        margin-right: 0%;
+                    }
+
                     .color-boton {
                         color: red;
                         border-color: red;
+                        height: 10px;
+                        font-size: 4px;
+                        padding: 0px 0px;
                     }
-                    
+
                     .color-boton:hover {
                         background-color: chocolate;
                         color: red;
