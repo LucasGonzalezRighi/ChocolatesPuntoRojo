@@ -26,11 +26,22 @@
                     background-color: #5e2903;
                     padding-top: 1%;
 
+                    .buscador-2 {
+                        width: 15%;
+                        padding: 0px 0px;
+                        font-size: 40%;
+                        line-height: 0%;
+                        height: 10px;
+                    }
+
                     .color-boton {
                         color: red;
                         border-color: red;
+                        width: 10%;
+                        height: 10px;
+                        font-size: 5px;
                     }
-                    
+
                     .color-boton:hover {
                         background-color: chocolate;
                         color: red;
