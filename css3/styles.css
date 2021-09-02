@@ -436,24 +436,13 @@ main .carousel-inner {
     width: 100%;
   }
   header .titulo-audio-buscador .titulo-audio-buscador-2 .buscador {
-    width: 17%;
+    width: 20%;
     background-color: #5e2903;
-    padding-top: 2%;
-  }
-  header .titulo-audio-buscador .titulo-audio-buscador-2 .buscador .buscador-2 {
-    width: 30px;
-    padding: 0px 0px;
-    font-size: 40%;
-    line-height: 0%;
-    height: 10px;
-    margin-right: 0%;
+    padding-top: 1%;
   }
   header .titulo-audio-buscador .titulo-audio-buscador-2 .buscador .color-boton {
     color: red;
     border-color: red;
-    height: 10px;
-    font-size: 4px;
-    padding: 0px 0px;
   }
   header .titulo-audio-buscador .titulo-audio-buscador-2 .buscador .color-boton:hover {
     background-color: chocolate;
