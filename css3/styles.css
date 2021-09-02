@@ -421,7 +421,7 @@ main .carousel-inner {
     padding-top: 1%;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 20;
     margin-bottom: -5%;
   }
   header .titulo-audio-buscador {
@@ -436,23 +436,24 @@ main .carousel-inner {
     width: 100%;
   }
   header .titulo-audio-buscador .titulo-audio-buscador-2 .buscador {
-    width: 50%;
+    width: 17%;
     background-color: #5e2903;
-    padding-top: 1%;
+    padding-top: 2%;
   }
   header .titulo-audio-buscador .titulo-audio-buscador-2 .buscador .buscador-2 {
-    width: 15%;
+    width: 30px;
     padding: 0px 0px;
     font-size: 40%;
     line-height: 0%;
     height: 10px;
+    margin-right: 0%;
   }
   header .titulo-audio-buscador .titulo-audio-buscador-2 .buscador .color-boton {
     color: red;
     border-color: red;
-    width: 10%;
     height: 10px;
-    font-size: 5px;
+    font-size: 4px;
+    padding: 0px 0px;
   }
   header .titulo-audio-buscador .titulo-audio-buscador-2 .buscador .color-boton:hover {
     background-color: chocolate;
@@ -473,8 +474,8 @@ main .carousel-inner {
   }
   header .titulo-audio-buscador .titulo-audio-buscador-2 .carrito-audio audio {
     width: 73%;
-    padding-top: 20%;
-    height: 34%;
+    padding-top: 10%;
+    height: 22%;
   }
   header .menu-general {
     padding-top: 0%;

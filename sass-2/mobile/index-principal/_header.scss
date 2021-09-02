@@ -5,7 +5,7 @@
         padding-top: 1%;
         position: sticky;
         top: 0;
-        z-index: 1;
+        z-index: 20;
         margin-bottom: -5%;
 
         .titulo-audio-buscador {
@@ -22,24 +22,25 @@
 
 
                 .buscador {
-                    width: 50%;
+                    width: 17%;
                     background-color: #5e2903;
-                    padding-top: 1%;
+                    padding-top: 2%;
 
                     .buscador-2 {
-                        width: 15%;
+                        width: 30px;
                         padding: 0px 0px;
                         font-size: 40%;
                         line-height: 0%;
                         height: 10px;
+                        margin-right: 0%;
                     }
 
                     .color-boton {
                         color: red;
                         border-color: red;
-                        width: 10%;
                         height: 10px;
-                        font-size: 5px;
+                        font-size: 4px;
+                        padding: 0px 0px;
                     }
 
                     .color-boton:hover {
@@ -65,8 +66,8 @@
 
                     audio {
                         width: 73%;
-                        padding-top: 20%;
-                        height: 34%;
+                        padding-top: 10%;
+                        height: 22%;
                     }
                 }
             }
