@@ -1,0 +1,24 @@
+@media only screen and (max-width: 480px) {
+    .seccion-1-blanco {
+        background-color: #B94E02;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .fondo-imagen-blanco {
+            display: flex;
+            justify-content: center;
+            width: 31%;
+            height: 190px;
+
+            .imagen-2-blanco {
+                border-radius: 10px;
+                width: 20%;
+                height: 110px;
+                margin: 0px;
+                position: absolute;
+                margin-top: 6%;
+            }
+        }
+    }
+}

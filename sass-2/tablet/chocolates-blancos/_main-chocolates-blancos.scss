@@ -1,0 +1,16 @@
+@media only screen and (max-width: 480px) {
+    .main-chocolates-blancos {
+        background-image: url(https://www.vegrecetas.com/wp-content/uploads/chocolate-blanco-vegan.jpg);
+        background-color: chocolate;
+        padding: 16% 0% 16% 0%;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .h1-chocolates-blancos {
+            font-family: 'Gentium Book Basic', serif;
+            font-size: 160%;
+            color: whitesmoke;
+            padding-left: 1%;
+        }
+    }
+}
