@@ -980,16 +980,16 @@ main .carousel-inner {
     height: 270px;
   }
   .seccion1 .fondo-imagen .imagen1 {
-    border-radius: 0%;
-    width: 20%;
-    height: 75px;
+    border-radius: 10%;
+    width: 21%;
+    height: 200px;
     margin: 0px;
     position: absolute;
   }
   .seccion1 .fondo-imagen .imagen2 {
-    border-radius: 0%;
-    width: 20%;
-    height: 75px;
+    border-radius: 10%;
+    width: 21%;
+    height: 200px;
     margin: 0px;
     position: absolute;
   }
