@@ -977,7 +977,7 @@ main .carousel-inner {
     display: flex;
     justify-content: space-evenly;
     width: 25%;
-    height: 270px;
+    height: 260px;
   }
   .seccion1 .fondo-imagen .imagen1 {
     border-radius: 10%;
