@@ -959,13 +959,13 @@ main .carousel-inner {
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   main {
-    margin-top: -4%;
+    margin-top: -6%;
   }
   main .carousel-inner {
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 181px;
+    height: 477px;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -977,7 +977,7 @@ main .carousel-inner {
     display: flex;
     justify-content: space-evenly;
     width: 25%;
-    height: 90px;
+    height: 270px;
   }
   .seccion1 .fondo-imagen .imagen1 {
     border-radius: 0%;
