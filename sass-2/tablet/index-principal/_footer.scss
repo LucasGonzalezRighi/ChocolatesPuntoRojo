@@ -1,9 +1,8 @@
-@media only screen and (max-width: 480px) {
-
+@media only screen and (min-width: 481px) and (max-width: 960px) {
     .grid-container {
         display: grid;
         grid-template-columns: 0% 20% 34% 26% 14%;
-        grid-auto-rows: 90px;
+        grid-auto-rows: 180px;
         grid-gap: 4px;
         background-color: #5E2903;
         padding-top: 1%;
@@ -14,7 +13,7 @@
             justify-content: center;
             flex-wrap: revert;
             background-color: transparent;
-            font-size: 50%;
+            font-size: 75%;
             font-family: "Castoro", serif;
             text-transform: uppercase;
             letter-spacing: 0px;
@@ -22,19 +21,19 @@
         }
 
         .lcdtt {
-            padding-left: 0%;
+            padding-left: 10%;
         }
 
         .lista {
             list-style: none;
-            padding-left: 0%;
+            padding-left: 1%;
 
             .sublista {
                 display: inherit;
 
                 .menu2 {
                     color: white;
-                    font-size: 4px;
+                    font-size: 10px;
                     font-family: "Castoro", serif;
                     text-transform: uppercase;
                     letter-spacing: 0px;
