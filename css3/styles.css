@@ -1146,21 +1146,22 @@ main .carousel-inner {
     background-color: #B94E02;
     display: flex;
     justify-content: center;
+    padding-bottom: 17%;
     flex-wrap: wrap;
   }
   .seccion-1-semiamargo .fondo-imagen-semiamargo {
     display: flex;
     justify-content: center;
-    width: 31%;
-    height: 190px;
+    width: 33%;
+    height: 300px;
   }
   .seccion-1-semiamargo .fondo-imagen-semiamargo .imagen-2-semiamargo {
-    border-radius: 10px;
+    border-radius: 30px;
     width: 20%;
-    height: 110px;
+    height: 175px;
     margin: 0px;
     position: absolute;
-    margin-top: 6%;
+    margin-top: 10%;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -1183,21 +1184,22 @@ main .carousel-inner {
     background-color: #B94E02;
     display: flex;
     justify-content: center;
+    padding-bottom: 17%;
     flex-wrap: wrap;
   }
   .seccion-1-con-leche .fondo-imagen-con-leche {
     display: flex;
     justify-content: center;
-    width: 31%;
-    height: 190px;
+    width: 33%;
+    height: 300px;
   }
   .seccion-1-con-leche .fondo-imagen-con-leche .imagen-2-con-leche {
-    border-radius: 10px;
+    border-radius: 30px;
     width: 20%;
-    height: 110px;
+    height: 175px;
     margin: 0px;
     position: absolute;
-    margin-top: 6%;
+    margin-top: 10%;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -1220,21 +1222,22 @@ main .carousel-inner {
     background-color: #B94E02;
     display: flex;
     justify-content: center;
+    padding-bottom: 17%;
     flex-wrap: wrap;
   }
   .seccion-1-blanco .fondo-imagen-blanco {
     display: flex;
     justify-content: center;
-    width: 31%;
-    height: 190px;
+    width: 33%;
+    height: 300px;
   }
   .seccion-1-blanco .fondo-imagen-blanco .imagen-2-blanco {
-    border-radius: 10px;
+    border-radius: 30px;
     width: 20%;
-    height: 110px;
+    height: 175px;
     margin: 0px;
     position: absolute;
-    margin-top: 6%;
+    margin-top: 10%;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -1296,21 +1299,22 @@ main .carousel-inner {
     background-color: #B94E02;
     display: flex;
     justify-content: center;
+    padding-bottom: 17%;
     flex-wrap: wrap;
   }
   .seccion-1-sintaac .fondo-imagen-sintaac {
     display: flex;
     justify-content: center;
-    width: 31%;
-    height: 190px;
+    width: 33%;
+    height: 300px;
   }
   .seccion-1-sintaac .fondo-imagen-sintaac .imagen-2-sintaac {
-    border-radius: 10px;
+    border-radius: 30px;
     width: 20%;
-    height: 110px;
+    height: 175px;
     margin: 0px;
     position: absolute;
-    margin-top: 6%;
+    margin-top: 10%;
   }
 }
 

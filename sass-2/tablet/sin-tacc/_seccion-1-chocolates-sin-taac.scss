@@ -3,21 +3,22 @@
         background-color: #B94E02;
         display: flex;
         justify-content: center;
+        padding-bottom: 17%;
         flex-wrap: wrap;
 
         .fondo-imagen-sintaac {
             display: flex;
             justify-content: center;
-            width: 31%;
-            height: 190px;
+            width: 33%;
+            height: 300px;
 
             .imagen-2-sintaac {
-                border-radius: 10px;
+                border-radius: 30px;
                 width: 20%;
-                height: 110px;
+                height: 175px;
                 margin: 0px;
                 position: absolute;
-                margin-top: 6%;
+                margin-top: 10%;
             }
         }
     }
