@@ -1257,6 +1257,7 @@ main .carousel-inner {
     background-color: #B94E02;
     display: flex;
     justify-content: center;
+    padding-bottom: 17%;
     flex-wrap: wrap;
   }
   .seccion-1-bombones .fondo-imagen-bombones {
