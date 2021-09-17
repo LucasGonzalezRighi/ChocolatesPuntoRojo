@@ -1099,7 +1099,7 @@ main .carousel-inner {
   }
   .grid-container .lista-2 .sublista-2 {
     background-color: transparent;
-    font-size: 4px;
+    font-size: 10px;
     font-family: "Castoro", serif;
     text-transform: uppercase;
     letter-spacing: 0px;
@@ -1110,7 +1110,7 @@ main .carousel-inner {
     display: block;
   }
   .grid-container .mediosdepago-1 .mediosdepago-2 {
-    width: 15%;
+    width: 13%;
   }
   .grid-container .lista-3 {
     display: flex;
@@ -1120,9 +1120,9 @@ main .carousel-inner {
     padding-left: 0%;
   }
   .grid-container .lista-3 .sublista-3 {
-    font-size: 200%;
+    font-size: 2800%;
     color: black;
-    letter-spacing: 4px;
+    letter-spacing: 10px;
     text-decoration: none;
   }
 }
