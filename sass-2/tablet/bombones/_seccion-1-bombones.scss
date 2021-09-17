@@ -1,5 +1,5 @@
 // Inicio de seccion 1 de bombones
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 481px) and (max-width: 960px) {
     .seccion-1-bombones {
         background-color: #B94E02;
         display: flex;
@@ -10,16 +10,16 @@
         .fondo-imagen-bombones {
             display: flex;
             justify-content: center;
-            width: 31%;
-            height: 190px;
+            width: 33%;
+            height: 410px;
 
             .imagen-2-bombones {
-                border-radius: 10px;
-                width: 20%;
-                height: 110px;
+                border-radius: 30px;
+                width: 25%;
+                height: 230px;
                 margin: 0px;
                 position: absolute;
-                margin-top: 6%;
+                margin-top: 10%;
             }
         }
     }

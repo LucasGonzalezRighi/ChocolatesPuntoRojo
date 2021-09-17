@@ -1141,7 +1141,7 @@ main .carousel-inner {
     padding-left: 1%;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 481px) and (max-width: 960px) {
   .seccion-1-semiamargo {
     background-color: #B94E02;
     display: flex;
@@ -1178,7 +1178,7 @@ main .carousel-inner {
     padding-left: 1%;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 481px) and (max-width: 960px) {
   .seccion-1-con-leche {
     background-color: #B94E02;
     display: flex;
@@ -1215,7 +1215,7 @@ main .carousel-inner {
     padding-left: 1%;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 481px) and (max-width: 960px) {
   .seccion-1-blanco {
     background-color: #B94E02;
     display: flex;
@@ -1252,7 +1252,7 @@ main .carousel-inner {
     padding-left: 1%;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 481px) and (max-width: 960px) {
   .seccion-1-bombones {
     background-color: #B94E02;
     display: flex;
@@ -1262,16 +1262,16 @@ main .carousel-inner {
   .seccion-1-bombones .fondo-imagen-bombones {
     display: flex;
     justify-content: center;
-    width: 31%;
-    height: 190px;
+    width: 33%;
+    height: 410px;
   }
   .seccion-1-bombones .fondo-imagen-bombones .imagen-2-bombones {
-    border-radius: 10px;
-    width: 20%;
-    height: 110px;
+    border-radius: 30px;
+    width: 25%;
+    height: 230px;
     margin: 0px;
     position: absolute;
-    margin-top: 6%;
+    margin-top: 10%;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -1290,7 +1290,7 @@ main .carousel-inner {
     padding-left: 1%;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 481px) and (max-width: 960px) {
   .seccion-1-sintaac {
     background-color: #B94E02;
     display: flex;
